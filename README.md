@@ -33,24 +33,7 @@ A responsive and dynamic calendar application built using **Django, Python, HTML
 
 ---
 
-## Project Structure
 
-mini-calendar/
-│
-├── backend/
-│
-├── calendar_api/
-│ ├── calendar_api/
-│ ├── events/
-│ ├── static/
-│ │ ├── css/
-│ │ └── js/
-│ │
-│ ├── templates/
-│ ├── db.sqlite3
-│ └── manage.py
-│
-├── venv/
 
 ---
 
