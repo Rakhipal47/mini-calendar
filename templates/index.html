@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini Calendar</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+<h1></h1>
+
+<div class="calendar">
+    <h2 id="monthYear"></h2>
+    <div id="days"></div>
+</div>
+
+<!-- Place the message display here -->
+<div id="message"></div>
+
+<div class="event-box">
+    <input type="date" id="eventDate">
+    <input type="text" id="eventText" placeholder="Event">
+    <button id="addEvent">Add Event</button>
+</div>
+
+<script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>
